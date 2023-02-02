@@ -1,10 +1,10 @@
 import React from 'react'
-import { Register } from './pages/Register.jsx'
+import Home from './pages/Home.jsx'
 import './style.scss'
 
 const App = () => {
   return (
-    <Register />
+    <Home/>
   )
 }
 
