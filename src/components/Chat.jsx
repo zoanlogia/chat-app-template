@@ -11,9 +11,9 @@ const Chat = () => {
       <div className="chatInfo">
         <span>Jeff</span>
         <div className="chatIcons">
-        <FontAwesomeIcon icon={faVideo} size="md" inverse />
-        <FontAwesomeIcon icon={faUserPlus} size="md" inverse />
-        <FontAwesomeIcon icon={faEllipsisH} size="md" inverse />
+        <FontAwesomeIcon icon={faVideo} inverse />
+        <FontAwesomeIcon icon={faUserPlus} inverse />
+        <FontAwesomeIcon icon={faEllipsisH} inverse />
         </div>
       </div>
       <Messages />

@@ -81,7 +81,7 @@ $lightgrey-color-darker: #969494;
                 padding: 15px;
 
                 &::placeholder {
-                    color: $secondary-color;
+                    color: $lightgrey-color-darker;
                 }
             }
 
@@ -91,7 +91,7 @@ $lightgrey-color-darker: #969494;
                 gap: 10px;
 
                 svg {
-                    color: $secondary-color;
+                    color: $lightgrey-color-darker;
 
                     &:hover {
                         cursor: pointer;
@@ -100,7 +100,7 @@ $lightgrey-color-darker: #969494;
                 }
 
                 span {
-                    color: $secondary-color;
+                    color: $lightgrey-color-darker;
                     font-size: 12px;
                 }
             }

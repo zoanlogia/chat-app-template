@@ -1,4 +1,4 @@
-import { faFileUpload, faImage, faImagePortrait, faPaperclip } from '@fortawesome/free-solid-svg-icons'
+import { faImage, faPaperclip } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
 
@@ -7,10 +7,10 @@ export const Input = () => {
     <div className='input'>
       <input type="text" placeholder='Saisissez votre message' />
       <div className="send">
-        <FontAwesomeIcon icon={faPaperclip} size="md"/>
+        <FontAwesomeIcon icon={faPaperclip} />
         <input type="file" style={{display:"none"}} id="file" />
         <label htmlFor="file">
-          <FontAwesomeIcon icon={faImage} size="md"/>
+          <FontAwesomeIcon icon={faImage} />
         </label>
         <button>Envoyer</button>
       </div>
